@@ -1,29 +1,31 @@
 ---
-description: "Instructions to use whenever creating or editing assignment markdown files to ensure consistency and clarity for students."
+description: "Use when creating or editing assignment markdown files so they match the project template and stay student-friendly."
 applyTo: "assignments/**/*.md"
 ---
 
 # Assignment Markdown Structure Guidelines
 
-All assignment markdown files should follow these guidelines:
-
-## 1. Template Usage
-
-- Assignment markdown files must follow the structure in [`templates/assignment-template.md`]
+All assignment markdown files should follow the structure in [templates/assignment-template.md]
 (../../templates/assignment-template.md).
-- The assignment must be created as a `README.md` file
-- Do not remove or skip required sections from the template.
 
-## 2. Section Guidance
+## Required Structure
 
-The section headers should reflect the structure in the template, including the exact icon usage.
+- Use `README.md` as the assignment file name inside each assignment folder.
+- Keep the exact section order and heading styles from the template.
+- Preserve the emoji icons used in the template headings.
+- Do not remove required sections or add extra sections unless explicitly requested.
 
-- **Title**: Replace `[Assignment Title]` with a short, descriptive name (e.g., `Python Basics`, `Loops and Conditionals`, `Functions and Modules`).
-- **Objective**: Write 1-2 sentences summarizing what the student will learn or accomplish. Focus on the main skills or concepts.
-- **Tasks**: For each task:
-   - Use a specific, action-oriented task name
-   - In the Description, clearly state what the student must do.
-   - In Requirements, use bullet points to list the expected outcomes or features. Be specific and measurable
-   - Provide example input/output in code blocks if helpful.
+## Content Guidance
 
-Do not include extra sections unless explicitly specified.
+- Replace `[Assignment Title]` with a short, descriptive title such as `Python Basics` or `Data Analysis`.
+- Write a brief Objective that clearly explains what the student will build or learn.
+- For each task, use a specific, action-oriented task title.
+- In each task Description, explain exactly what the student must do.
+- In each task Requirements list, use clear, measurable bullet points.
+- Include example input or output in code blocks only when it helps clarify the task.
+
+## Style Expectations
+
+- Keep the language student-friendly, clear, and encouraging.
+- Keep wording consistent with the repository's educational tone.
+- Favor concise explanations over long paragraphs.
