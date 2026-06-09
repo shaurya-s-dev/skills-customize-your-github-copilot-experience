@@ -2,10 +2,9 @@
 description: "Use when creating or editing assignment markdown files so they match the project template and stay student-friendly."
 applyTo: "assignments/**/*.md"
 ---
-
 # Assignment Markdown Structure Guidelines
 
-All assignment markdown files should match the structure in [templates/assignment-template.md](../../templates/assignment-template.md).
+All assignment markdown files should follow the structure in [templates/assignment-template.md](../../templates/assignment-template.md).
 
 ## Required Structure
 
