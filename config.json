@@ -72,6 +72,25 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "fix-broken-gradebook",
+      "title": "Fix the Broken Gradebook",
+      "description": "Debugging a CSV-based student gradebook",
+      "path": "assignments/fix-broken-gradebook",
+      "dueDate": "2026-06-16",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "Gradebook Data",
+          "file": "grades.csv",
+          "type": "csv"
+        }
+      ]
     }
   ]
 }
