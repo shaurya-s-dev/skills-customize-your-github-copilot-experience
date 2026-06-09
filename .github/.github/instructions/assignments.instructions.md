@@ -4,7 +4,8 @@ applyTo: "assignments/**/*.md"
 ---
 # Assignment Markdown Structure Guidelines
 
-All assignment markdown files should follow the structure in [templates/assignment-template.md](../../templates/assignment-template.md).
+All assignment markdown files should follow the structure in [templates/assignment-template.md]
+(../../templates/assignment-template.md).
 
 ## Required Structure
 
